@@ -1,0 +1,371 @@
+@media (max-width: 1250px) {
+    .about {
+        justify-content: center;
+    }
+
+    .about1 {
+        justify-content: center;
+    }
+
+    .small-about-block1 {
+        width: 45% !important;
+    }
+
+    .small-about-block2 {
+        width: 45% !important;
+    }
+
+    .small-about-block3 {
+        width: 45% !important;
+    }
+
+    .small-about-block4 {
+        width: 45% !important;
+    }
+}
+
+@media (max-width: 1235px) {
+    .header__preview-text {
+        width: 50%;
+        align-items: start;
+    }
+
+    .header__preview-img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1175px) {
+    .small-about-block__img {
+        max-width: 100%;
+    }
+
+    .small-about-block__img1 {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1060px) {
+    .main-about-block__img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 990px) {
+    .header__preview-title {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .small-about-block_title1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .small-about-block_title2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .small-about-block_title3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .small-about-block_title4 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 975px) {
+    .small-about-block_title1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .small-about-block_title2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .small-about-block_title3 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .small-about-block_title4 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+}
+
+@media (max-width: 910px) {
+    .small-about-block_title1 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .small-about-block_title2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .small-about-block_title3 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .small-about-block_title4 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+}
+
+@media (max-width: 912px) {
+    .feedback {
+        flex-direction: column;
+    }
+
+    .header__preview {
+        padding-top: 100px;
+    }
+
+    .small-about-block_title1 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .small-about-block_title2 {
+        width: auto !important;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .small-about-block_title3 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .small-about-block_title4 {
+        width: auto !important;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .small-about-block1 {
+        padding: 0 94px 0 94px;
+    }
+}
+
+@media (max-width: 825px) {
+    .footer__nav {
+        display: block;
+    }
+
+    .footer__nav-list {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer__nav-copyright {
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 810px) {
+    .header__preview {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__preview-text {
+        width: auto;
+    }
+
+    .header__preview-img {
+        width: 100%;
+    }
+
+    .header__preview-btn {
+        align-self: center;
+    }
+
+    .header__preview-title {
+        text-align: center;
+    }
+
+    .header__preview-sign {
+        display: none;
+    }
+
+    .team-text {
+        width: auto !important;
+    }
+}
+
+@media (max-width: 735px) {
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .small-about-block1 {
+        width: auto !important;
+    }
+
+    .small-about-block2 {
+        width: auto !important;
+    }
+
+    .small-about-block3 {
+        width: auto !important;
+    }
+
+    .small-about-block4 {
+        width: auto !important;
+    }
+
+    .header__nav-list {
+        flex-direction: column;
+        min-height: 100vh;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.647);
+        ;
+        position: absolute;
+        left: 0;
+        top: -100%;
+        z-index: 9998;
+        gap: 50px;
+        transition: 500ms;
+        gap: 20px !important;
+    }
+
+    .header__nav-list--link {
+        color: white !important;
+        font-size: 25px;
+    }
+
+    .burger {
+        width: 5%;
+        position: absolute;
+        top: 3%;
+        right: 20px;
+        display: block !important;
+        visibility: visible !important;
+        z-index: 9999;
+    }
+
+    .burger img {
+        width: 100%;
+    }
+
+    .burger:hover~.header__nav-list {
+        top: 0;
+    }
+
+    .burger:hover~.header__nav-list-btns {
+        top: 0;
+    }
+
+    .small-about-block1::before {
+        left: 0;
+    }
+
+    .small-about-block2::before {
+        left: 0;
+    }
+
+    .small-about-block3::before {
+        right: 0px;
+    }
+
+    .small-about-block4::before {
+        right: 0px;
+    }
+
+    .footer {
+        padding: 81px 0px;
+    }
+
+    .main-about-block {
+        padding: 65px 0;
+    }
+
+    .main-about-block1 {
+        padding: 65px 0;
+    }
+
+    .small-about-block1 {
+        padding: 65px 0;
+    }
+
+
+    .small-about-block2 {
+        padding: 65px 0;
+    }
+
+    .small-about-block3 {
+        padding: 65px 0;
+    }
+
+    .small-about-block4 {
+        padding: 65px 0;
+    }
+
+    .main-about-block__title1 {
+        width: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-about-block__title {
+        width: auto;
+    }
+
+    .main-about-block {
+        padding: 65px 0px;
+    }
+
+    .footer__info {
+        width: auto;
+        line-height: 20px;
+    }
+
+    .team-members {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .header__learning-bl0ck {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 425px) {
+    .feedback-people__img {
+        max-width: 100%;
+    }
+
+    .feedback__info {
+        width: auto;
+    }
+
+    .header__preview  {
+        padding: 100px 10px;
+    }
+
+    .burger {
+        top: 6%
+    }
+}

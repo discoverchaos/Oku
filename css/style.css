@@ -24,9 +24,6 @@
     padding: 20px 24px;
     border-bottom: 1px solid #E5E5E5;
     background-color: #FFFFFF;
-    position: fixed;
-    width: 100%;
-    z-index: 9999;
 }
 
 .header__nav-list {
@@ -40,6 +37,11 @@
     font-family: IR;
     font-size: 16px;
     color: #131314;
+}
+
+.burger {
+    display: none;
+    visibility: hidden;
 }
 
 .header__nav-btns {
@@ -369,7 +371,6 @@
 }
 
 .feedback {
-    width: 912px;
     display: flex;
     justify-content: center;
     align-items: center;
